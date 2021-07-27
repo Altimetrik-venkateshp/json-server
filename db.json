@@ -2,10 +2,423 @@
   "posts": [
     {
       "id": 1,
-      "title": "hello"
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "body": "pulkit",
+      "id": 3,
+      "postId": 3
+    },
+    {
+      "body": {
+        "logo": "assets/fiservLogo.svg",
+        "title": "Payment",
+        "currency": "en-USD",
+        "nodes": [
+          {
+            "id": "container",
+            "children": [
+              "row1"
+            ],
+            "type": "container",
+            "style": {
+              "background-color": "#ffffff"
+            },
+            "meta": {}
+          },
+          {
+            "id": "row1",
+            "children": [
+              "col1",
+              "col2"
+            ],
+            "type": "row",
+            "style": {},
+            "meta": {}
+          },
+          {
+            "id": "col1",
+            "children": [
+              "cart"
+            ],
+            "type": "column",
+            "style": {},
+            "meta": {}
+          },
+          {
+            "id": "col2",
+            "children": [
+              "payment",
+              "upi-app",
+              "payment-button"
+            ],
+            "type": "column",
+            "style": {},
+            "meta": {}
+          },
+          {
+            "id": "cart",
+            "children": [],
+            "type": "component",
+            "style": {
+              "background-color": "#ffffff"
+            },
+            "meta": {
+              "show": false,
+              "shippingShow": false
+            }
+          },
+          {
+            "id": "payment",
+            "children": [],
+            "type": "component",
+            "style": {
+              "background-color": "#ffffff"
+            },
+            "meta": {
+              "show": true
+            }
+          },
+          {
+            "id": "upi-app",
+            "children": [],
+            "type": "component",
+            "style": {
+              "background-color": "#ffffff"
+            },
+            "meta": {
+              "gpayShow": false,
+              "applePayShow": false
+            }
+          },
+          {
+            "id": "payment-button",
+            "children": [],
+            "type": "component",
+            "style": {},
+            "meta": {
+              "show": true
+            }
+          },
+          {
+            "id": "terms-text",
+            "children": [],
+            "type": "component",
+            "style": {},
+            "meta": {
+              "show": true,
+              "data": "<p><span>By clicking \"Pay\", I accept the </span><a href=\"#\">Terms and Conditions</a><span> of Fiserv.</span></p>"
+            }
+          },
+          {
+            "id": "powered-text",
+            "children": [],
+            "type": "component",
+            "style": {},
+            "meta": {
+              "show": true
+            }
+          }
+        ]
+      },
+      "id": 4,
+      "postId": 4
     }
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "templateData": [
+    {
+      "id": "442",
+      "name": "Style 1",
+      "template": {
+        "logo": "assets/fiservLogo.svg",
+        "title": "Payment",
+        "currency": "en-USD",
+        "nodes": [
+          {
+            "id": "container",
+            "children": [
+              "row1"
+            ],
+            "type": "container",
+            "style": {
+              "background-color": "#24708e",
+              "color": "#24708e",
+              "font-family": "Arial"
+            },
+            "meta": {
+              "theme": ""
+            }
+          },
+          {
+            "id": "row1",
+            "children": [
+              "col1",
+              "col2"
+            ],
+            "type": "row",
+            "style": {},
+            "meta": {}
+          },
+          {
+            "id": "col1",
+            "children": [
+              "cart"
+            ],
+            "type": "column",
+            "style": {},
+            "meta": {}
+          },
+          {
+            "id": "col2",
+            "children": [
+              "payment",
+              "upi-app",
+              "payment-button"
+            ],
+            "type": "column",
+            "style": {},
+            "meta": {}
+          },
+          {
+            "id": "cart",
+            "children": [],
+            "type": "component",
+            "style": {
+              "background-color": "#d1d1d1",
+              "border-color": "#666666",
+              "color": "#24708e",
+              "font-family": "Arial"
+            },
+            "meta": {
+              "show": false,
+              "shippingShow": false,
+              "style": {
+                "border-color": "#666666"
+              }
+            }
+          },
+          {
+            "id": "payment",
+            "children": [],
+            "type": "component",
+            "style": {
+              "background-color": "#d1d1d1",
+              "border-color": "#666666",
+              "color": "#24708e",
+              "font-family": "Arial"
+            },
+            "meta": {
+              "show": true,
+              "style": {
+                "border-color": "#666666"
+              }
+            }
+          },
+          {
+            "id": "upi-app",
+            "children": [],
+            "type": "component",
+            "style": {
+              "background-color": "#d1d1d1",
+              "border-color": "#666666",
+              "color": "#24708e",
+              "font-family": "Arial"
+            },
+            "meta": {
+              "gpayShow": false,
+              "applePayShow": false,
+              "style": {
+                "border-color": "#666666"
+              }
+            }
+          },
+          {
+            "id": "payment-button",
+            "children": [],
+            "type": "component",
+            "style": {
+              "background-color": "#0bb2d4",
+              "border-color": "#666666",
+              "color": "#24708e",
+              "font-family": "Arial",
+              "border": "1px solid #666666"
+            },
+            "meta": {
+              "show": true,
+              "style": {
+                "border-color": "#666666"
+              }
+            }
+          },
+          {
+            "id": "terms-text",
+            "children": [],
+            "type": "component",
+            "style": {
+              "background-color": "#d1d1d1",
+              "border-color": "#666666",
+              "color": "#24708e",
+              "font-family": "Arial"
+            },
+            "meta": {
+              "show": true,
+              "data": "<p><span>By clicking \"Pay\", I accept the </span><a href=\"#\">Terms and Conditions</a><span> of Fiserv.</span></p>",
+              "style": {
+                "border-color": "#666666"
+              }
+            }
+          },
+          {
+            "id": "powered-text",
+            "children": [],
+            "type": "component",
+            "style": {
+              "background-color": "#d1d1d1",
+              "border-color": "#666666",
+              "color": "#24708e",
+              "font-family": "Arial"
+            },
+            "meta": {
+              "show": true,
+              "style": {
+                "border-color": "#666666"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "193",
+      "name": "Style 2",
+      "template": {
+        "logo": "assets/fiservLogo.svg",
+        "title": "Payment",
+        "currency": "en-USD",
+        "nodes": [
+          {
+            "id": "container",
+            "children": [
+              "row1"
+            ],
+            "type": "container",
+            "style": {
+              "background-color": "#7231F5"
+            },
+            "meta": {}
+          },
+          {
+            "id": "row1",
+            "children": [
+              "col1",
+              "col2"
+            ],
+            "type": "row",
+            "style": {},
+            "meta": {}
+          },
+          {
+            "id": "col1",
+            "children": [
+              "cart"
+            ],
+            "type": "column",
+            "style": {},
+            "meta": {}
+          },
+          {
+            "id": "col2",
+            "children": [
+              "payment",
+              "upi-app",
+              "payment-button"
+            ],
+            "type": "column",
+            "style": {},
+            "meta": {}
+          },
+          {
+            "id": "cart",
+            "children": [],
+            "type": "component",
+            "style": {
+              "background-color": "#7231F5"
+            },
+            "meta": {
+              "show": false,
+              "shippingShow": false
+            }
+          },
+          {
+            "id": "payment",
+            "children": [],
+            "type": "component",
+            "style": {
+              "background-color": "#7231F5"
+            },
+            "meta": {
+              "show": true
+            }
+          },
+          {
+            "id": "upi-app",
+            "children": [],
+            "type": "component",
+            "style": {
+              "background-color": "#7231F5"
+            },
+            "meta": {
+              "gpayShow": false,
+              "applePayShow": false
+            }
+          },
+          {
+            "id": "payment-button",
+            "children": [],
+            "type": "component",
+            "style": {
+              "background-color": "#7231F5"
+            },
+            "meta": {
+              "show": true
+            }
+          },
+          {
+            "id": "terms-text",
+            "children": [],
+            "type": "component",
+            "style": {
+              "background-color": "#7231F5"
+            },
+            "meta": {
+              "show": true,
+              "data": "<p><span>By clicking \"Pay\", I accept the </span><a href=\"#\">Terms and Conditions</a><span> of Fiserv.</span></p>"
+            }
+          },
+          {
+            "id": "powered-text",
+            "children": [],
+            "type": "component",
+            "style": {
+              "background-color": "#7231F5"
+            },
+            "meta": {
+              "show": true
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
